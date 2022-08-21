@@ -47,11 +47,16 @@ body{
     line-height: calc(31 / 26);
     color: #000000 ;
 }
-
+.logo-cl{
+    color: var(--akcent-cl);
+}
 .header-nav-list-item {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #212121;
+}
+.active-page{
+    color: var(--akcent-cl);
 }
 
 .header-nav-list-contacti-item {
@@ -99,15 +104,13 @@ body{
     text-transform: uppercase;
 }
 .btn {
-    background: #2196F3;
+    font-family: var(--main-font);
+    background:var(--akcent-cl)
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
@@ -119,11 +122,11 @@ body{
 .description-list-item {
 }
 .description-tittle {
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
 }
 .description-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     color: #757575;
@@ -166,12 +169,19 @@ body{
 *****************************
 ****************************/
 .porfolio {
+    ba
 }
 
-.porfolio-list-item {
+.porfolio-btn {
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
+    cursor: pointer;
+}
+.porfolio-btn:active {
+    background-color: var(--akcent-cl);
+    color: #FFFFFF;
 }
 .portfolio-list-img {
 }
